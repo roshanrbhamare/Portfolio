@@ -21,7 +21,7 @@ function Journey() {
           extra: "Startup Pitch",
         },
         {
-          title: "200+ DSA Problems Solved",
+          title: "250+ DSA Problems Solved",
           place: "LeetCode, GFG",
           duration: "2024 – Present",
           extra: "Problem Solving Skills",
