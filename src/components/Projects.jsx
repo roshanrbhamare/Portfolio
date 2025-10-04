@@ -1,8 +1,8 @@
 import React from "react";
 import { Github, ExternalLink, Server, Database, Code2 } from "lucide-react";
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
+import projectSoundly from "../assets/projectSoundly.png";
+import projectAgentica from "../assets/project2.png";
 
 function Projects() {
   const projects = [
@@ -23,34 +23,33 @@ function Projects() {
       ],
     },
     {
-      title: "Buzz Chat",
-      subtitle: "Real-time Chat Application",
-      description:
-        "A real-time chat platform with secure authentication, one-to-one and group messaging, typing indicators, and responsive UI. Built with the MERN stack and WebSocket communication for instant updates.",
-      image: project2,
-      technologies: [
-        { name: "React", icon: <Code2 size={16} />, color: "bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-300" },
-        { name: "Tailwind CSS", icon: <Code2 size={16} />, color: "bg-cyan-100 text-cyan-600 dark:bg-cyan-900/50 dark:text-cyan-300" },
-        { name: "Node.js", icon: <Server size={16} />, color: "bg-green-100 text-green-600 dark:bg-green-900/50 dark:text-green-300" },
-        { name: "Express", icon: <Server size={16} />, color: "bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-300" },
-        { name: "MongoDB", icon: <Database size={16} />, color: "bg-emerald-100 text-emerald-600 dark:bg-emerald-900/50 dark:text-emerald-300" },
-        { name: "Socket.IO", icon: <Server size={16} />, color: "bg-purple-100 text-purple-600 dark:bg-purple-900/50 dark:text-purple-300" },
-      ],
-    },
-    {
-      title: "Hospital Management System",
-      subtitle: "Core Java, OOP, MySQL, Console-Based UI",
-      description:
-        "A console-based hospital management system developed using Core Java to handle patient records, doctor schedules, and appointments. Features complete CRUD operations, MySQL integration via JDBC, and a clean console UI enhanced by user feedback.",
-      image: project3,
-      technologies: [
-        { name: "Java", icon: <Code2 size={16} />, color: "bg-red-100 text-red-600 dark:bg-red-900/50 dark:text-red-300" },
-        { name: "MySQL", icon: <Database size={16} />, color: "bg-yellow-100 text-yellow-600 dark:bg-yellow-900/50 dark:text-yellow-300" },
-        { name: "JDBC", icon: <Server size={16} />, color: "bg-indigo-100 text-indigo-600 dark:bg-indigo-900/50 dark:text-indigo-300" },
-        { name: "OOP", icon: <Code2 size={16} />, color: "bg-teal-100 text-teal-600 dark:bg-teal-900/50 dark:text-teal-300" },
-        { name: "Console UI", icon: <Code2 size={16} />, color: "bg-gray-100 text-gray-600 dark:bg-gray-900/50 dark:text-gray-300" },
-      ],
-    },
+    title: "Agentica",
+    subtitle: "AI-Powered Intelligent Document Management System",
+    description:
+      "A system that automates document categorization, retrieval, and management using AI techniques. Won 2nd prize in a hackathon for its efficiency and accuracy.",
+    image: projectAgentica, // replace with your image variable
+    technologies: [
+      { name: "Python", icon: <Code2 size={16} />, color: "bg-yellow-100 text-yellow-600 dark:bg-yellow-900/50 dark:text-yellow-300" },
+      { name: "Machine Learning", icon: <Code2 size={16} />, color: "bg-purple-100 text-purple-600 dark:bg-purple-900/50 dark:text-purple-300" },
+      { name: "Flask", icon: <Server size={16} />, color: "bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-300" },
+      { name: "MongoDB", icon: <Database size={16} />, color: "bg-emerald-100 text-emerald-600 dark:bg-emerald-900/50 dark:text-emerald-300" },
+      { name: "REST API", icon: <Server size={16} />, color: "bg-cyan-100 text-cyan-600 dark:bg-cyan-900/50 dark:text-cyan-300" },
+    ],
+  },
+  {
+    title: "Soundly",
+    subtitle: "Music Streaming Application",
+    description:
+      "A personal music streaming app with user authentication, custom playlists, and real-time playback. Built with the MERN stack and provides a responsive UI for seamless user experience.",
+    image: projectSoundly, // replace with your image variable
+    technologies: [
+      { name: "React", icon: <Code2 size={16} />, color: "bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-300" },
+      { name: "Node.js", icon: <Server size={16} />, color: "bg-green-100 text-green-600 dark:bg-green-900/50 dark:text-green-300" },
+      { name: "Express", icon: <Server size={16} />, color: "bg-amber-100 text-amber-600 dark:bg-amber-900/50 dark:text-amber-300" },
+      { name: "MongoDB", icon: <Database size={16} />, color: "bg-emerald-100 text-emerald-600 dark:bg-emerald-900/50 dark:text-emerald-300" },
+      { name: "Tailwind CSS", icon: <Code2 size={16} />, color: "bg-cyan-100 text-cyan-600 dark:bg-cyan-900/50 dark:text-cyan-300" },
+    ],
+  },
   ];
 
   return (
