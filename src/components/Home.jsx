@@ -4,7 +4,7 @@ import profile from "../assets/dp.jpg";
 
 function App() {
   // Convert Google Drive link to direct download link
-  const resumeUrl = "https://drive.google.com/file/d/1eLYfSxvjnx4OOUhZzCCTfTRwKp0Oowup/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/1I7kU6qONdcZAthJZPCJoQNhAN6VJdRK2/view?usp=drive_link";
 
   const socialLinks = [
     {
